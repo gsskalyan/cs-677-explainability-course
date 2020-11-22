@@ -1,0 +1,16 @@
+title: CS-677 Explainability
+description: This is project repo for Deep Learning - Explainability
+template:
+  repo: cs-677-explainability-template
+  name: cs-677-explainability
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
